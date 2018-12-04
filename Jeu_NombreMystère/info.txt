@@ -1,0 +1,12 @@
+		Nombre Mystère
+
+Auteur : 'Osmos | ThePsyca'
+Contact : 'https://steamcommunity.com/id/ThePsyca'
+
+Durée de développement : '4-Heures'
+Date de création : '04-12-2018'
+Dernière MAJ : '04-12-2018'
+Langage : 'C#'
+
+Un soucis ? Un bug ? Une question ? Une proposition ?
+N'hésitez pas à me contacter sur steam !
