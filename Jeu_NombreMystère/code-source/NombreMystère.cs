@@ -66,7 +66,15 @@
 
                 if (!int.TryParse(InputDiffuclte, out Difficulte))
                 {
-                   PrintColorMessage(ConsoleColor.Red, "\nEntre un nombre !");
+                    // Change la couleur du texte
+                    Console.ForegroundColor = ConsoleColor.Red;
+
+                    // Affichage des informations de l'application
+                    Console.WriteLine("Entre un nombre !");
+
+                    // Remet la couleur de texte basique
+                    Console.ResetColor();
+
                     continue;
                 }
 
@@ -75,7 +83,14 @@
 
                 if ((Difficulte <= 0) || (Difficulte > 3))
                 {
-                    PrintColorMessage(ConsoleColor.Red, "Choix incorrect !");
+                    // Change la couleur du texte
+                    Console.ForegroundColor = ConsoleColor.Red;
+
+                    // Affichage des informations de l'application
+                    Console.WriteLine("Choix incorrect !");
+
+                    // Remet la couleur de texte basique
+                    Console.ResetColor();
 
                     continue;
                 }
